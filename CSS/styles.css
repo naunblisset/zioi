@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    background-color: #fff;
+}
+
+body {
+    background: #000;
+    min-height: 200vh;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky {
+    padding: 10px 100px;
+    background: #fff;
+
+}
+
+section[id] {
+    scroll-margin-top: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header .ZIOI {
+    position: relative;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.banner {
+
+    height: 100vh;
+    width: 300vh;
+    background: url(conejito.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.titulo {
+    color: #000;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    background-color: #fff;
+}
+
+.contenedor-gallery {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.imagen-pinguino {
+    height: 500px;
+    width: 600px;
+}
+
+.imagen-hanako {
+    height: 500px;
+    width: 600px;
+    margin-left: 28%;
+    margin-top: 50px;
+    
+}
+
+.titulo1 {
+    color: #000;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.imagen-jane {
+    height: 520px;
+    width: 400px;
+    margin-left: 80px;
+}
+
+.imagen-about {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about .p{
+    text-align: right;
+    justify-content: center;
+}
