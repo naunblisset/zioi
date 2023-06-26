@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIOI</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+
+<!--HEADER SECTION-->
+
+    <header>
+        <a href="#home" class="ZIOI">ZIOI</a>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="./paginas/contacto.html">CONTACT</a></li>
+        </ul>
+    </header>
+
+<!--END OF HEADER SECTION-->
+
+<!--SCRIPT SECTION-->
+
+    <section class="banner" id="home"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+<!--END OF SCRIPT SECTION-->
+
+<!--GALLERY SECTION-->
+
+<body>
+    <div class="identificador" id="gallery"></div>
+    <section class="fondo-galeria">
+        <div class="gallery">
+          <h1>G A L L E R Y</h1>
+        </div>
+        <div class="portafolio"><a href="./paginas/portafolio.html">P  O  R  T  A  F  O  L  I  O</a></div>
+        <div class="fanart"><a href="./paginas/fanart.html">F  A  N  A  R  T</a></div>
+     </section>
+
+<!--END OF GALLERY SECTION-->
+
+<!--ABOUT SECTION-->
+
+     <div class="identificador2" id="about"></div>
+     <section class="fondo-about">
+        <div class="about">
+            <h1>A B O U T </h1>
+        </div>
+        <div class="foto-jane">
+            <img src="./CSS/PSFix_20211123_215540.jpg" alt="" class="jane">
+            <div class="texto-about">
+             <h3>Hello, I am Janeth Aráuz “ZIOI”</h3>
+             <p>I am an illustrator, born in Nicaragua with a passion for simple and careful lines.
+             My favorite tools are charcoal, solid pen or texture brushes. I like to vary my styles and techniques such as canvases with watercolor, crayon, chalk, charcoal, pen and many more.
+             In this small space you will be able to take a look at my work, I hope you enjoy it as much as I enjoy creating it.</p>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aperiam fuga dolor debitis suscipit consequatur facilis dicta, iusto incidunt nulla sit vero dolorum voluptates pariatur nisi animi, quam dignissimos assumenda asperiores libero repellat commodi, adipisci repellendus. A provident cumque vero dolorum animi cupiditate quo veniam officiis vitae numquam. Ducimus, magnam.</p>
+            </div>
+        </div>
+     </section>
+     
+<!--END OF ABOUT SECTION-->
+
+
+
+</body>
+</html>

@@ -75,13 +75,13 @@ header ul li a {
 .banner {
 
     height: 100vh;
-    width: 300vh;
+    width: 215.9vh;
     background: url(conejito.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
 .titulo {
-    color: #000;
+    color: #000000;
     font-size: 30px;
     text-align: left;
     margin-bottom: 60px;
@@ -91,21 +91,29 @@ header ul li a {
 
 .contenedor-gallery {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    
+    position: relative;
+    width: 100%;
 }
 
 .imagen-pinguino {
-    height: 500px;
-    width: 600px;
+    display: block;
+    height: 450px;
+    width: 500px;
+    margin-right: 20px;
 }
 
 .imagen-hanako {
-    height: 500px;
-    width: 600px;
-    margin-left: 28%;
-    margin-top: 50px;
+    display: block;
+    height: 450px;
+    width: 500px;
+    margin-left: 20px;
+
+}
+
+.imagen-hanako.hover{
+    background: rgba(0, 0, 0, 0.6);
     
 }
 
@@ -128,7 +136,8 @@ header ul li a {
     display: flex;
     justify-content: space-evenly;
 }
-.imagen-about .p{
+
+.imagen-about .p {
     text-align: right;
     justify-content: center;
 }

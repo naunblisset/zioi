@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    background-color: #fff;
+}
+
+body {
+    background: #ffffff;
+    min-height: 200vh;
+
+}
+
+/*HEADER SECTION*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky {
+    padding: 10px 100px;
+    background: #ffffff;
+
+}
+
+section[id] {
+    scroll-margin-top: 10px;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+header .ZIOI {
+    position: relative;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.banner {
+
+    height: 100vh;
+    width: 215.9vh;
+    background: url(conejito.gif) no-repeat center center fixed;
+    background-size:cover;
+}
+
+/*END OF HEADER SECTION*/
+
+/*GALLERY SECTION*/
+
+.fondo-galeria {
+    background: #ffffff;
+}
+
+.gallery {
+    background-color: #000000;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+.gallery h1 {
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 12px;
+    font-size: xx-large;
+
+}
+
+.portafolio {
+    background-image: url(./pingüino\ \(20230117074417\).jpg);
+    padding: 170px;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.fanart {
+    background-image: url(brujis.jpg);
+    padding: 170px;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.portafolio a{
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.fanart a{
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/*END OF GALLERY SECTION*/
+
+/*ABOUT SECTION*/
+
+.about {
+    background-color: #000000;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 849px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+.about h1 {
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 12px;
+    font-size: xx-large;
+}
+
+.foto-jane{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jane{
+    width: 300px;
+    height: 400px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.texto-about{
+    min-height: 280px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-about h3{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.texto-about p{
+    font-size: medium;
+    font-weight: 300;
+}
+
+/*END OF ABOUT SECTION*/
