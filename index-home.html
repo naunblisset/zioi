@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIOI</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+
+<!--HEADER SECTION-->
+
+    <header>
+        <a href="#home" class="ZIOI">ZIOI</a>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portafolio">PORTAFOLIO</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="./contacto.html">CONTACT</a></li>
+        </ul>
+    </header>
+
+<!--END OF HEADER SECTION-->
+
+<!--HERO SECTION-->   
+
+<body>
+    <div class="hero" id="home">
+        <div class="texto-comision">
+            <a href="mailto:janethmendoza534@gnail.com? subject:Hola20%estoy20%interesado20%en20%la20%comision20%">OPEN COMMISSIONS</a>
+        </div>
+    </div>
+
+<!--END OF HERO SECTION-->    
+
+<!--GALLERY SECTION-->
+
+
+    <div class="identificador" id="portafolio"></div>
+    <section>
+        <div class="portafolio">
+            <a href="./portafolio.html">PORTAFOLIO</a>
+        </div>
+     </section>
+
+<!--END OF GALLERY SECTION-->
+
+<!--ABOUT SECTION-->
+
+     <div class="identificador2" id="about"></div>
+     <section class="fondo-about">
+        <div class="about">
+            <p>ABOUT </p>
+        </div>
+        <div class="foto-jane">
+            <img src="./IMG/jane.jpg" alt="" class="jane">
+            <div class="texto-about">
+             <h3>Hello, I am Janeth Aráuz “ZIOI”</h3>
+             <p>I am an illustrator, born in Nicaragua with a passion for simple and careful lines.
+             My favorite tools are charcoal, solid pen or texture brushes. I like to vary my styles and techniques such as canvases with watercolor, crayon, chalk, charcoal, pen and many more.
+             In this small space you will be able to take a look at my work, I hope you enjoy it as much as I enjoy creating it.</p>
+            </div>
+        </div>
+     </section>
+     
+<!--END OF ABOUT SECTION-->
+
+
+<!--SCRIPT SECTION-->
+
+    <section class="nav"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+<!--END OF SCRIPT SECTION-->
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIOI PORTAFOLIO</title>
+    <link rel="stylesheet" href="./CSS/estilo-portafolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="./index-home.html" class="ZIOI">ZIOI</a>
+        <ul>
+            <li><a href="./index-home.html">HOME</a></li>
+            <li><a href="./contacto.html">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <h2>Portafolio</h2>
+
+    <section class="container-grid">
+        <img src="IMG/Bunny.png" alt="Bunny" class="img img-1">
+        <img src="IMG/Creativity.png" alt="Creativity" class="img img-2">
+        <img src="IMG/How beauty blooms from pain.png" alt="How beauty bloom from pain" class="img img-3">
+        <img src="IMG/Jing.jpeg" alt="Jing" class="img img-4">
+        <img src="IMG/Lilalilly.jpg" alt="Lilalilly" class="img img-5">
+        <img src="IMG/Little moons.png" alt="Little moons" class="img img-6">
+        <img src="IMG/Nana.jpg" alt="Nana" class="img img-7">
+        <img src="IMG/Pingüi.jpg" alt="Pingüi" class="img img-8">
+        <img src="IMG/Read blind.png" alt="Read blind" class="img img-9">
+        <img src="IMG/Solitude in the field.png" alt="Solitude in the field" class="img img-10">
+        <img src="IMG/Somewhere in Japan.png" alt="Somewhere in Japan" class="img img-11">
+        <img src="IMG/Torn apart.png" alt="Torn apart" class="img img-12">
+        <img src="IMG/Unchained.png" alt="Unchained" class="img img-13">
+        <img src="IMG/Yuko.png" alt="Yuko" class="img img-14">
+        <img src="IMG/Yuna.png" alt="Yuna" class="img img-15">
+
+        <div class="container-img">
+            <img src="" alt="" class="img-show">
+            <i class="bx bx-x"></i>
+            <p class="copy"></p>
+        </div>
+        
+    </section>
+
+
+    <section class="nav"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <script src="./JS/index.js"></script>
+
+</body>
+
+</html>
