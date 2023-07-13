@@ -4,25 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZIOI</title>
+    <title>ZIOI CONTACTO</title>
     <link rel="shortcut icon" href="IMG/Recurso 1.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/estilos-contacto.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
+  
     <header>
-        <a href="#" class="ZIOI">ZIOI</a>
+        <a href="#home" class="ZIOI">ZIOI</a>
         <ul>
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/index.html">GALLERY</a></li>
-            <li><a href="/index.html">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="./index-home.html">HOME</a></li>
+            <li><a href="./portafolio.html">PORTAFOLIO</a></li>
         </ul>
     </header>
-    <section class="banner" id="home"></section>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
-    <h1>Proximamente esta sección</h1>
+
+<div class="container">
+    <div class="item">
+        <div class="contact"></div>
+
+        <div class="submit-form">
+            <h4 class="text">CONTACT ME</h4>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" class="input" required>
+                    <label for="">NAME</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" class="input" required>
+                    <label for="">EMAIL</label>
+                </div>
+                <div class="input-box">
+                    <input type="tel" class="input" required>
+                    <label for="">PHONE</label>
+                </div>
+                <div class="input-box">
+                    <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+                    <label for="">MESSAGE</label>
+                </div>
+                <input type="submit" class="btn" value="SUBMIT">
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <h3>ZIOI</h3>
+        <p>__________________________________________________________________________________________________________________________</p>
+        <ul class="socials">
+            <li><a href="https://www.instagram.com/zioi.ii/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.behance.com"><i class="fa fa-behance"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 ZIOI. designed by <span>guarachitosINK&TRADE;</span></p>
+    </div>
+</footer>
+
+<!--SCRIPT SECTION-->
+
+<section class="nav"></section>
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+</script>
+
+<!--END OF SCRIPT SECTION-->
+
+</body>
