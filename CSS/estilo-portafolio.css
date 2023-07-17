@@ -3,17 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: montserrat;
-    
+
 }
 
-body{
+body {
     background: #FCFBFF;
     min-height: 900vh;
-
-
 }
-
-
 
 /*HEADER SECTION*/
 
@@ -78,6 +74,8 @@ header ul li a {
 }
 
 /**END OF HEADER SECTION**/
+
+/**PORTAFOLIO SECTION**/
 h2 {
     text-align: center;
     font-size: 35px;
@@ -104,7 +102,7 @@ h2 {
         "img12 img12 img13 img13"
         "img14 img14 img14 img14"
         "img15 img15 img15 img15";
-    gap:10px
+    gap: 10px
 }
 
 .img {
@@ -112,58 +110,74 @@ h2 {
     height: 100%;
     object-fit: cover;
 }
-.img:hover{
-    filter:brightness(30%);
+
+.img:hover {
+    filter: brightness(30%);
     cursor: pointer;
     transition: filter .5s;
 }
-.img-1{
+
+.img-1 {
     grid-area: img1;
 }
-.img-2{
+
+.img-2 {
     grid-area: img2;
 }
-.img-3{
+
+.img-3 {
     grid-area: img3;
 }
-.img-4{
+
+.img-4 {
     grid-area: img4;
 }
-.img-5{
+
+.img-5 {
     grid-area: img5;
 }
-.img-6{
+
+.img-6 {
     grid-area: img6;
 }
-.img-7{
+
+.img-7 {
     grid-area: img7;
 }
-.img-8{
+
+.img-8 {
     grid-area: img8;
 }
-.img-9{
+
+.img-9 {
     grid-area: img9;
 }
-.img-10{
+
+.img-10 {
     grid-area: img10;
 }
-.img-11{
+
+.img-11 {
     grid-area: img11;
 }
-.img-12{
+
+.img-12 {
     grid-area: img12;
 }
-.img-13{
+
+.img-13 {
     grid-area: img13;
 }
-.img-14{
+
+.img-14 {
     grid-area: img14;
 }
-.img-15{
+
+.img-15 {
     grid-area: img15;
 }
 
-.container-img{
+.container-img {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -177,26 +191,29 @@ h2 {
     transition: transform .4s ease-in;
 }
 
-.move{
+.move {
     transform: translateX(0);
 }
 
-.img-show{
+.img-show {
     height: 80%;
     transform: scale(0);
     display: block;
     object-fit: cover;
     transition: transform .2s .4s;
 }
-.show{
+
+.show {
     transform: scale(1);
 }
-.copy{
+
+.copy {
     position: fixed;
     color: white;
     bottom: 40px;
 }
-.bx.bx-x{
+
+.bx.bx-x {
     position: absolute;
     color: white;
     top: 50px;
@@ -205,25 +222,29 @@ h2 {
     cursor: pointer;
 }
 
-@media screen and (max-widht:700px){
-    .img-show{
+@media screen and (max-widht:700px) {
+    .img-show {
         width: 80%;
     }
 
-    .copy{
+    .copy {
         bottom: 20px;
     }
 
-    .bx.bx-x{
-        top:10px;
+    .bx.bx-x {
+        top: 10px;
         font-size: 25px;
 
     }
 
-    
+
 }
 
-footer{
+/**END OF PORTAFOLIO SECTION**/
+
+/**FOOTER SECTION**/
+
+footer {
     position: absolute;
     bottom: -900%;
     background: #111;
@@ -233,14 +254,15 @@ footer{
     color: #fff;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
+
+.footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
@@ -249,47 +271,57 @@ footer{
     font-weight: 600;
     letter-spacing: 1px;
 }
-.footer-content p{
+
+.footer-content p {
     max-width: 500px;
     line-height: 28px;
     font-size: 4px;
 }
-.socials{
+
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.socials li{
+
+.socials li {
     margin: 0 10px;
 }
-.socials a{
+
+.socials a {
     text-decoration: none;
     color: #fff;
 }
-.socials a i{
+
+.socials a i {
     font-size: 1.1rem;
     transition: color .4s ease;
 
 }
-.socials a:hover i{
+
+.socials a:hover i {
     color: #d02d23;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #000;
     width: 100%;
     padding: 20px 0;
     text-align: center;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
-.footer-bottom span{
+
+.footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
+
+/**END OF FOOTER SECTION**/
